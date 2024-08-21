@@ -3,5 +3,6 @@
  
 # Preview:
 
-![image](https://github.com/ART3MISTICAL/dotfiles/assets/68769374/7b2a06b2-67d6-4ced-b558-a6fdc142cd05)
+![image](https://github.com/user-attachments/assets/99a9ef98-4ffd-42e7-992f-94a2ded97e6b)
+
 
