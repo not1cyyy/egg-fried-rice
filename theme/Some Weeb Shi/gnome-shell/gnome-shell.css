@@ -1,6 +1,4 @@
-/* OUTLINE */
-
-.login-dialog .modal-dialog-button:default,
+OUTLINE .login-dialog .modal-dialog-button:default,
 .unlock-dialog .modal-dialog-button:default,
 .lg-extension:active,
 .lg-extension:hover,
@@ -361,48 +359,33 @@ stage {
 
 /*clock*/
 #panel .panel-button.clock-display .clock {
-    /* transition-duration: 150ms;
-    border: 3px solid transparent;
-    border-radius: 8px; */
     transition-duration: 150ms;
     border: 2px solid transparent #c67f0d;
     border-radius: 12px;
     background-color: #11111b;
-    /* Add a semi-transparent background */
     color: #ffffff;
-    /* Set the font color to white for better contrast */
     padding: 2px 8px;
-    /* Add padding around the clock */
     font-weight: bold;
-    /* Make the text bold */
-    /* font-size: 14px; */
-    /* Adjust the font size if needed */
 }
 
 #panel .panel-button:hover.clock-display {
-    /* box-shadow: none; */
     box-shadow: inset 0 0 0 100px rgba(255, 255, 255, 0.1);
     color: #11111b;
     background-color: #c67f0d;
-    /* Darker background on hover */
 }
 
 #panel .panel-button:hover.clock-display .clock {
-    /* box-shadow: inset 0 0 0 100px rgba(255, 255, 255, 0.1); */
     box-shadow: inset 0 0 0 100px rgba(255, 255, 255, 0.1);
     color: #11111b;
     background-color: #c67f0d;
-    /* Darker background on hover */
 }
 
 #panel .panel-button:active.clock-display,
 #panel .panel-button:overview.clock-display,
 #panel .panel-button:focus.clock-display,
 #panel .panel-button:checked.clock-display {
-    /* box-shadow: none; */
     box-shadow: inset 0 0 0 100px rgba(255, 255, 255, 0.05);
     background-color: rgba(0, 0, 0, 0.7);
-    /* Slightly lighter background on active/focus */
 }
 
 #panel .panel-button:active.clock-display .clock,
